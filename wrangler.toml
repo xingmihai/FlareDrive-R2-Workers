@@ -11,6 +11,7 @@ bucket_name = "store"
 # 部署前确保 public 目录包含 index.html 和 assets/
 [assets]
 directory = "./public"
+binding = "ASSETS"
 
 # 环境变量
 [vars]
