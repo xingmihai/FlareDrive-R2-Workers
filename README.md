@@ -135,5 +135,5 @@ flaredrive-worker/
 │       └── ...
 ├── wrangler.toml         # Cloudflare Worker 配置
 ├── package.json
-└── DEPLOY.md             # 本文件
+└── README.md             # 本文件
 ```
