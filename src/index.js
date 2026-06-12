@@ -249,8 +249,6 @@ async function handleChildren(context) {
   try {
     const [bucket, path] = parseBucketPath(context);
     const prefix = path && `${path}/`;
-    if (!bucket || prefix.startsWith("_$flaredrive$/")) return notFound();
-    const allowList = get_allow_list(context);
 
     const objList = await bucket.list({
       prefix,
