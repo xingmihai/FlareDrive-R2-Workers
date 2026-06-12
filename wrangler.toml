@@ -24,4 +24,4 @@ AWS_ACCESS_KEY_ID = "38c6a24ad96703f73b0e91d1b7564db1"
 # R2 S3 访问密钥
 AWS_SECRET_ACCESS_KEY = "ced273817796d2b760ffbb54e1c04addc9e3803c997cb30ff37e938f063e38c9"
 # 访客访问权限（逗号分隔的路径列表，* 表示全部访问）
-GUEST = "*"
+GUEST = ""
