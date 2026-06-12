@@ -251,16 +251,6 @@ async function handleChildren(context) {
     const prefix = path && `${path}/`;
     if (!bucket || prefix.startsWith("_$flaredrive$/")) return notFound();
     const allowList = get_allow_list(context);
-    if (!allowList) {
-      const headers = new Headers();
-      headers.set("WWW-Authenticate", 'Basic realm="需要登录"');
-      return new Response("没有读取权限", { status: 401, headers });
-    }
-    if (prefix && !can_access_path(context, prefix)) {
-      const headers = new Headers();
-      headers.set("WWW-Authenticate", 'Basic realm="需要登录"');
-      return new Response("没有读取权限", { status: 401, headers });
-    }
 
     const objList = await bucket.list({
       prefix,
