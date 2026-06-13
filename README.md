@@ -44,7 +44,7 @@ directory = "./public"
 
 [vars]
 PUBURL = "https://your-puburl.r2.dev"              # 替换为你的 R2 公开访问 URL
-GUEST = ""                                        # 访客权限，* 表示允许写入所有路径
+# GUEST = ""                                        # 访客权限，* 表示允许写入所有路径(可选)
 "admin:123456" = "*"
 # 管理员账号密码
 ```
@@ -59,7 +59,7 @@ Cloudflare新建一个workers，选择你复刻的仓库
 
 ## 权限配置
 
-### 访客写入 (可选
+### 访客写入 (可选)
 
 在 `wrangler.toml` 的 `[vars]` 中设置 `GUEST`：
 
