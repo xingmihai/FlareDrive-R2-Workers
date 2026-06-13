@@ -18,6 +18,6 @@ directory = "./public"
 # R2 公开访问 URL（用于 /raw/ 路径代理，格式：https://pub-xxx.r2.dev 或自定义域名）
 PUBURL = "https://pub-d706d0eef12a4417ae726f2faa9aa775.r2.dev"
 # 访客访问权限（逗号分隔的路径列表，* 表示全部访问）
-GUEST = ""
+# GUEST = ""
 # 管理员账号密码
 "admin:123456" = "*"
