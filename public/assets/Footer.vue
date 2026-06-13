@@ -23,7 +23,7 @@
       <strong>项目:</strong><a href="https://github.com/xingmihai/FlareDrive-R2-Workers" target="_blank"
         rel="noopener noreferrer">FlareDrive-R2-Workers</a>
       <strong>作者:</strong><a href="https://github.com/xingmihai" target="_blank"
-        rel="noopener noreferrer">LiuShen</a>
+        rel="noopener noreferrer">星觅海</a>
       <strong>初始项目:</strong><a href="https://github.com/willow-god/FlareDrive-R2" target="_blank"
         rel="noopener noreferrer">Cloudflare-R2-OSS</a>
     </div>
